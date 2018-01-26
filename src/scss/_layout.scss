@@ -1,0 +1,49 @@
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.container {
+    max-width:1350px;
+    margin:0 auto;
+}
+
+.section-header{
+  text-align: center;
+}
+.section-header-text{
+  font-size: 20px;
+}
+.section-header-title{
+  font-size: 40px;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+  position: relative;
+  margin-top: 10px
+}
+.section-header-title:after {
+  content: '';
+  display: block;
+  position: absolute;
+
+  left:50%;
+  bottom:0%;
+  width: 125px;
+  transform: translate(-50%, 0);
+  height: 2px;
+  background: $color-main;
+}
+
+.row{
+  display: flex;
+}
+
+.row .col{
+  margin:0 15px;
+  flex-grow:1;
+  
+}

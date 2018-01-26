@@ -1,8 +1,15 @@
-*, *:after, *:before {
-    box-sizing: border-box;
-}
-
-body {
-    margin:0;
-
-}
+//zmienne
+@import "_variables.scss";
+//główne
+@import "_layout.scss";
+@import "_main-nav.scss";
+@import "_page-header.scss";
+//reszta
+@import "_main-banner.scss";
+@import "_main-paralax.scss";
+@import "_main-banner2.scss";
+@import "_main-hero.scss";
+@import "_main-love-music.scss";
+@import "_main-map.scss";
+@import "_box.scss";
+@import "_main-our-team.scss";
